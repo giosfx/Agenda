@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -13,27 +14,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:hint="Nome"
+            android:hint="@string/nome"
+            android:importantForAutofill="no"
             android:inputType="textCapWords"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/activity_formulario_aluno_telefone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:hint="Telefone"
+            android:hint="@string/telefone"
+            android:importantForAutofill="no"
             android:inputType="phone"
-            android:minHeight="48dp" />
+            android:minHeight="48dp"
+            tools:targetApi="o" />
 
         <EditText
             android:id="@+id/activity_formulario_aluno_email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:hint="Email"
+            android:hint="@string/email"
+            android:importantForAutofill="no"
             android:inputType="textEmailAddress"
-            android:minHeight="48dp" />
-
+            android:minHeight="48dp"
+            tools:targetApi="o" />
     </LinearLayout>
 </ScrollView>

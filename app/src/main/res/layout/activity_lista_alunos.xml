@@ -16,7 +16,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:clickable="true"
-        android:contentDescription="Novo Aluno"
+        android:contentDescription="@string/novo_aluno"
         android:focusable="true"
         android:src="@drawable/ic_action_novo_aluno"
         app:srcCompat="@mipmap/ic_launcher"

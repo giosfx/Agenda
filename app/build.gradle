@@ -7,12 +7,12 @@ android {
 
     defaultConfig {
         applicationId "com.giosfx.agenda"
-        minSdk 29
         targetSdk 32
         versionCode 1
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        minSdk 18
     }
 
     buildTypes {
